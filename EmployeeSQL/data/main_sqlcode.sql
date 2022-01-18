@@ -30,7 +30,10 @@ on d.dept_no=dm.dept_no;
 
 
 --4. List the department of each employee
-SELECT e.emp_no, e.last_name, e.first_name,d.dept_name
+SELECT e.emp_no			AS "Employee Number", 
+		e.last_name		AS "Last Name", 
+		e.first_name	AS "First Name",
+		d.dept_name		AS "Dapertment Name"
 FROM employees e
 JOIN dept_emp demp
 ON e.emp_no=demp.emp_no
@@ -38,33 +41,45 @@ JOIN departments d
 on d.dept_no=demp.dept_no;
 
 --5. List first name, last name, and sex for employees
-SELECT e.first_name, e.last_name,  e.sex
+SELECT e.first_name		AS "First Name", 
+		e.last_name		AS "Last Name",  
+		e.sex			AS "Sex"
 FROM employees e
 WHERE e.first_name='Hercules'
 AND e.last_name LIKE 'B%';
 
 
 --6. List all employees in the Sales department
-SELECT e.emp_no, e.last_name, e.first_name,d.dept_name
+SELECT e.emp_no			AS "Employee Number", 
+		e.last_name		AS "Last Name", 
+		e.first_name	AS "First Name",
+		d.dept_name		AS "Department Name"
 FROM employees e
 JOIN dept_emp demp
-ON e.emp_no=demp.emp_no
+	ON e.emp_no=demp.emp_no
 JOIN departments d
-on d.dept_no=demp.dept_no
-WHERE d.dept_name='Sales';
+	ON d.dept_no=demp.dept_no
+	WHERE d.dept_name='Sales';
 
 
 --7. List all employees in the Sales and Development departments,
-SELECT e.emp_no, e.last_name, e.first_name,d.dept_name
+SELECT e.emp_no		AS "Employee Number", 
+	e.last_name		AS "Last Name", 
+	e.first_name	AS "First Name",
+	d.dept_name		AS "Department Name"
 FROM employees e
 JOIN dept_emp demp
-ON e.emp_no=demp.emp_no
+	ON e.emp_no=demp.emp_no
 JOIN departments d
-on d.dept_no=demp.dept_no
-WHERE d.dept_name='Sales'
-OR d.dept_name='Development';
+	ON d.dept_no=demp.dept_no
+WHERE 	d.dept_name='Sales'
+	OR 	d.dept_name='Development';
+
+
+
 
 --8. In descending order, list the frequency count of employee last names
-SELECT last_name,COUNT (last_name )  
+SELECT last_name 		AS "Last Name",
+	COUNT (last_name )  AS "Number of Repeats"
 FROM employees
 GROUP BY last_name;
