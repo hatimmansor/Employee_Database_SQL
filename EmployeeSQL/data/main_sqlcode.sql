@@ -1,17 +1,27 @@
 --1.select from employee table  number, last name, first name, sex, and join with salary table
 --and disply the employee salary.
-SELECT e.emp_no, e.last_name, e.first_name, e.sex, s. salary
+SELECT e.emp_no 		AS "Employee Number", 
+	e.last_name			AS "Last Name", 
+	e.first_name		AS "First NAme", 
+	e.sex				AS "Sex", 
+	s. salary			AS "Salary"
 FROM employees e
 JOIN salaries s
 ON e.emp_no=s.emp_no;
 
 --2.List first name, last name, and hire date for employees who were hired in 1986.
-SELECT first_name, last_name, hire_date
+SELECT first_name		AS "First Name", 
+		last_name		AS "Last Name", 
+		hire_date		AS "Hire Date"
 FROM employees
 WHERE ((hire_date>='1/1/1986'::date)AND(hire_date<='31/12/1986'::date));
 
 --3.List the manager of each department
-SELECT d.dept_no,d.dept_name,e.emp_no, e.last_name, e.first_name
+SELECT d.dept_no		AS "Department Number",
+		d.dept_name		AS "Department Name",
+		e.emp_no		AS "Employee Number",
+		e.last_name		AS "Last Name",
+		e.first_name	AS "First Name"
 FROM employees e
 JOIN dept_manager dm
 ON e.emp_no=dm.emp_no
