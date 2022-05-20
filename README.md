@@ -8,7 +8,7 @@ In this project, I have designed the tables to hold data in the CSVs, import the
 
 # Data Source:
 Mockaroo, LLC. (2021). Realistic Data Generator. [https://www.mockaroo.com/](https://www.mockaroo.com/)
-
+&#128220;
 
 # Technologies/Tools: 
 &#10004;SQLAlchemy     &#10004;PostgreSQL      &#10004;Pandas      &#10004;Python <br>
