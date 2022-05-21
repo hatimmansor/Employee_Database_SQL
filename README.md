@@ -7,8 +7,9 @@ In this project, I have designed the tables to hold data in the CSVs, import the
 
 
 # Data Source:
-Mockaroo, LLC. (2021). Realistic Data Generator. [https://www.mockaroo.com/](https://www.mockaroo.com/)
-&#128220;
+Mockaroo, LLC. (2021). Realistic Data Generator. [https://www.mockaroo.com/](https://www.mockaroo.com/)<br>
+&#128220;departments.csv  &#128220;dept_emp.csv     &#128220;dept_emp.csv      
+&#128220;employees.csv      &#128220;salaries.csv       &#128220;titles.csv
 
 # Technologies/Tools: 
 &#10004;SQLAlchemy     &#10004;PostgreSQL      &#10004;Pandas      &#10004;Python <br>
