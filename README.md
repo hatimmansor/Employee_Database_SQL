@@ -19,8 +19,8 @@ Mockaroo, LLC. (2021). Realistic Data Generator. [https://www.mockaroo.com/](htt
 # Code Snapshots and Results:
 <table>
   <tr>
-    <th style="text-align:center">Salary range for employees</td>
-     <th style="text-align:center">Salary range by Title</td>
+     <th style="text-align:center">Salary Range by Employees</td>
+     <th style="text-align:center">Salary Range by Title</td>
      
   </tr>
   <tr>
