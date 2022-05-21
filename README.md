@@ -19,26 +19,28 @@ Mockaroo, LLC. (2021). Realistic Data Generator. [https://www.mockaroo.com/](htt
 # Code Snapshots and Results:
 <table>
   <tr>
-    <th style="text-align:center">Latitude vs Temperature</td>
-     <th style="text-align:center">Latitude vs Humidity</td>
+    <th style="text-align:center">Salary range for employees</td>
+     <th style="text-align:center">Salary range by Title</td>
      
   </tr>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/24882457/169546337-229073f0-ed55-42a8-8f44-507d152110d1.png" width=550 height=350></td>
-    <td><img src="https://user-images.githubusercontent.com/24882457/169546345-a5208276-fcfa-41ad-b76b-bea4b2df5539.png" width=550 height=350></td>
+    <td><img src="https://user-images.githubusercontent.com/24882457/169627643-41121e73-9b5f-4cd5-b09c-686aabaf70d7.png" width=550 height=350></td>
+    <td><img src="https://user-images.githubusercontent.com/24882457/169627648-89dc2210-e130-4029-bde4-4bf46526c3bf.png" width=550 height=350></td>
     
   </tr>
   <tr>
-   <th style="text-align:center" colspan="2">Heat Map that display every City Humidity</td>
+   <th style="text-align:center" colspan="2">QuickDBD EmployeeSQL ERD</td>
   </tr>
     <tr>
-    <td colspan="2"><img src="https://user-images.githubusercontent.com/24882457/169547628-2d5028ec-9917-41af-96e1-e51ea9ab87d5.png" width=1000 height=350></td>
+    <td colspan="2"><img src="https://user-images.githubusercontent.com/24882457/169627650-39678246-74d3-4e89-b958-3da7df24b453.png" width=1000 height=350></td>
     
     
 
     
   </tr>
 </table>
+
+
 
 
 
